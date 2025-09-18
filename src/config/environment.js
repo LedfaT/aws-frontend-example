@@ -1,3 +1,3 @@
 export default () => ({
-  api_url: import.meta.env.VITE_API_URL,
+  api_url: "https://srep6wsfuk.eu-west-3.awsapprunner.com/",
 });

@@ -9,8 +9,6 @@ function App() {
 
   const config = getConfig();
   const apiUrl = config.api_url;
-  console.log("Config:", import.meta.env.VITE_API_URL);
-  console.log("API URL:", apiUrl);
 
   useEffect(() => {
     fetch(apiUrl)
